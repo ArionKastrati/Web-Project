@@ -34,18 +34,6 @@ include_once './db/db-inc.php';
 
 <body>
 
-    <!-- Topbar Start -->
-    <?php
-    include 'includes/topbar.php';
-    ?>
-    <!-- Topbar End -->
-
-    <!-- Navbar Start -->
-    <?php
-    include 'includes/navbar.php';
-    ?>
-    <!-- Navbar End -->
-
     <div class='container-fluid pt-5'>
 
         <div  style='left: 35%; width: 60%' class='row px-xl-5 middle'>
