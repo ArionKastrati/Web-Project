@@ -1,4 +1,9 @@
+<?php 
+include_once './db/db-inc.php'; 
+?>
 
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
