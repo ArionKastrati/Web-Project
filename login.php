@@ -31,5 +31,53 @@
 
 <body>
 
+     <!-- Topbar Start -->
+    <?php
+    include 'includes/topbar.php';
+    ?>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <?php
+    include 'includes/navbar.php';
+    ?>
+    <!-- Navbar End -->
+
+    <div class='container-fluid pt-5'>
+
+        <div style='left: 35%; width: 60%' class='row px-xl-5 middle'>
+
+            <form  class = 'form-group' action='includes/login.inc.php' method = 'POST'>
+            <div class="col-md-6 form-group">
+                <label for = "username">Username or Email</label>
+                <input id = "username" name='username' class="form-control" type="text" placeholder="johndoe23">
+            </div>
+
+            <div class="col-md-6 form-group">
+                <label for="pwd">Password</label>
+                <input id="pwd" name='password' class="form-control" type="password" placeholder="Password">
+            </div>
+
+            <?php 
+                    include_once "includes/wrongData.php";
+            ?>
+
+            <div style='width: 50%' class="card-footer border-secondary bg-transparent login">
+                <button name = "submit" type='submit' class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3">Sign in</button>
+            </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+
 
    
