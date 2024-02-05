@@ -138,10 +138,10 @@
             <th>Arrival Date</th>
 		</tr>
 		<?php
-            $dbServerName = "localhost:3307";
+            $dbServerName = "";
             $dbUsername = "root";
             $dbPassword = "";
-            $dbName = "web2-database";
+            $dbName = "web-database";
             
             // Create connection
             $conn = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);

@@ -1,0 +1,57 @@
+
+form > .profile-card{
+    display: flex;
+    width:70vw;
+    border: 3px #D19C97 solid;
+    border-radius: 10px;
+    padding: 20px;
+    height: 70vh !important;
+    position: relative;
+    left: 15%;
+}
+.profile-card > .infos,
+.profile-card > .infos > .infos-data{
+    display: block;
+    width: 100%;
+    margin: 2%;
+    position: relative;
+    top: 19.4%;
+    right: 4.5%;
+
+}
+.profile-card > .infos > .infos-data{
+    margin-top: 1.8vh;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.category{
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+}
+.data,
+.edit-data > .data{
+    margin-left: 30%;
+
+}
+
+.edit{
+    width: 20% !important;
+    margin-bottom: 0 !important;
+    position: relative;
+    left: 75%;
+}
+
+.edit-data{
+    width:80%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}

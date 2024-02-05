@@ -28,7 +28,7 @@
 </head>
 
 <body>
-     <!-- Topbar Start -->
+    <!-- Topbar Start -->
     <?php
     include 'includes/topbar.php';
     ?>
@@ -102,7 +102,6 @@
                     </form>
                 </div>
             </div>
-   
             <div class="col-lg-5 mb-5">
                 <h5 class="font-weight-semi-bold mb-3">Get In Touch</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 

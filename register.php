@@ -33,7 +33,7 @@ include_once './db/db-inc.php';
 </head>
 
 <body>
-    
+
     <!-- Topbar Start -->
     <?php
     include 'includes/topbar.php';
@@ -45,7 +45,6 @@ include_once './db/db-inc.php';
     include 'includes/navbar.php';
     ?>
     <!-- Navbar End -->
-
 
     <div class='container-fluid pt-5'>
 

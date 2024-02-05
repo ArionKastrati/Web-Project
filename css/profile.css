@@ -1,0 +1,48 @@
+
+.profile-card{
+    display: flex;
+    width:70vw;
+    border: 3px #D19C97 solid;
+    border-radius: 10px;
+    padding: 20px;
+    height: 70vh !important;
+    position: relative;
+    left: 15%;
+}
+
+.img{
+    display: block;
+    width: 11vw;
+    height: 22vh;
+    position: relative;
+    left: 10%;
+    top: 5%;
+    border-radius: 50% !important; 
+}
+
+.profile-card > .infos,
+.profile-card > .infos > .infos-data{
+    display: block;
+    width: 100%;
+    margin: 2%;
+    position: relative;
+    top: 17%;
+    right: 4.5%;
+
+}
+.profile-card > .infos > .infos-data{
+    margin-top: 5vh;
+}
+.category{
+    float: left;
+}
+.data{
+    margin-left: 30%;
+}
+
+.edit{
+    width: 20% !important;
+    margin-bottom: 0 !important;
+    position: relative;
+    left: 75%;
+}

@@ -31,7 +31,8 @@
 
 <body>
 
-     <!-- Topbar Start -->
+
+    <!-- Topbar Start -->
     <?php
     include 'includes/topbar.php';
     ?>
@@ -78,6 +79,3 @@
 </body>
 
 </html>
-
-
-   

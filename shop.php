@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>eLibrary</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
@@ -17,7 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-  
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
@@ -83,7 +82,7 @@
             <!-- Navbar End -->
 
 
-<!-- Page Header Start -->
+            <!-- Page Header Start -->
             <div class="container-fluid bg-secondary mb-5">
                 <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
                     <h1 class="font-weight-semi-bold text-uppercase mb-3">Books</h1>
@@ -95,6 +94,7 @@
                 </div>
             </div>
             <!-- Page Header End -->
+
 
             <!-- Shop Start -->
             <div class="container-fluid pt-5">

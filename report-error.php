@@ -26,8 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("ss", $errorDescription, $userEmail);
 
     // Execute the SQL statement
-
-     if ($stmt->execute()) {
+    if ($stmt->execute()) {
         // Return a success response
         http_response_code(200);
         echo 'Error reported successfully';
@@ -45,5 +44,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     http_response_code(403); // Forbidden
     echo 'Forbidden';
 }
-   
 ?>
